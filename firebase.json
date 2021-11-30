@@ -8,7 +8,7 @@
     ],
     "rewrites": [
       {
-        "source": "**",
+        "source": "/2022",
         "destination": "/index.html"
       }
     ]
