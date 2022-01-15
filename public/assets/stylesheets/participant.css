@@ -29,7 +29,7 @@
 }
 
 .header h1 {
-    color: #ECAE58;
+    color: #BF6FB2;
     padding: 1em;
     text-align: center;
 }
@@ -43,7 +43,7 @@
 
 .schedule-nav > div {
     flex: 0 1 auto;
-    border: 1px solid #ECAE58;
+    border: 1px solid #BF6FB2;
     width: 200px;
     text-align: center;
     border-radius: 25px;
@@ -60,15 +60,15 @@
 }
 
 #friday_button {
-    box-shadow: 0px 0px 10px #ECAE58;
+    box-shadow: 0px 0px 10px #BF6FB2;
 }
 
 #saturday_button {
-    box-shadow: 0px 0px 0px #ECAE58;
+    box-shadow: 0px 0px 0px #BF6FB2;
 }
 
 #sunday_button {
-    box-shadow: 0px 0px 0px #ECAE58;
+    box-shadow: 0px 0px 0px #BF6FB2;
 }
 
 .friday_schedule, .saturday_schedule, .sunday_schedule {
@@ -177,8 +177,8 @@ table td {
 }
 
 #dataset-table th {
-    background-color: #C74138;
-    color: #ECE9E1;
+    background-color: #1C66A6;
+    color: #ACDEF2;
     text-align: left;
     font-weight: 600;
     padding: 1em 1em;
@@ -186,7 +186,7 @@ table td {
 }
 
 #dataset-table tr {
-    border-bottom: 0.1em solid #C74138;
+    border-bottom: 0.1em solid #1C66A6;
 }
 
 #dataset-table tr:nth-child(even) {
@@ -194,7 +194,7 @@ table td {
 }
 
 #dataset-table tr:last-of-type {
-    border-bottom: 0.3em solid #C74138;
+    border-bottom: 0.3em solid #1C66A6;
 }
 
 #dataset-table td {
@@ -239,4 +239,3 @@ ul {
     -webkit-margin-end: 0px;
     -webkit-padding-start: 0px;
 }
-
