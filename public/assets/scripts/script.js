@@ -7,8 +7,8 @@ $(document).ready(function(){
    }
     
    function retColor() {
-     var col1 = "background: rgb("+199+","+65+","+56+");";
-     var col2 = "background: rgb("+236+","+174+","+88+");";
+     var col1 = "background: rgb("+181+","+115+","+175+");";
+     var col2 = "background: rgb("+51+","+100+","+160+");";
      var col3 = "background: rgb("+38+","+39+","+48+");";
      var col4 = "background: rgb("+32+","+163+","+158+");";
      var daColors = [col1, col2, col3, col4];
@@ -34,7 +34,7 @@ $(document).ready(function(){
         
         var color = retColor();
         
-        var sizeInt = getRandomInt(10, 30);
+        var sizeInt = getRandomInt(10, 20); // 10-30 before
         size = "height: " + sizeInt + "px; width: " + sizeInt + "px;";
         
         var left = "left: " + getRandomInt(mousePos.x-range-sizeInt, mousePos.x+range) + "px;";
