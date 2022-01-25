@@ -130,7 +130,9 @@ div.form-group-mobile {
 
 img.mobile {
     height: auto;
-    width: 100vw;
+    width: 90vw;
+    margin: 0 auto;
+    max-width:300px;
     display: block;
 }
 
@@ -141,6 +143,7 @@ img.mobile {
     top: 50%;
     transform: translateY(-50%);
     overflow: hidden;
+    width: 100vw;
 }
 
 .fade-later {
@@ -266,7 +269,7 @@ img.mobile {
   }
 
 div.vertical-center {
-    color: #ECAE58;
+    color: #1C66A6;
 }
 
 .section1, .section2, .section3 {
@@ -928,7 +931,16 @@ img.a:hover {
         left: 15px;
     }
 
-    .heading {
-        font-size: 50px;
+    h1.heading {
+        font-size: 40px !important;
+        margin: 0 auto;
+    }
+    .mobile h1 {
+        font-size: 30px;
+        margin: 0 auto;
+    }
+    .mobile h3 {
+        font-size: 25px;
+        margin: 0 auto;
     }
 }
