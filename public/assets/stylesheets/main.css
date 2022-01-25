@@ -830,6 +830,14 @@ img.a:hover {
     color: #20A39e;
 }
 
+@media screen and (max-width: 1100px) {
+    .section1, .section2, .section3 {
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 70px;
+    }
+}
+
 @media only screen and (max-device-width: 1024px) {
     .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5 {
       background-attachment: scroll;
