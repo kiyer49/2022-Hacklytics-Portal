@@ -70,6 +70,22 @@ button {
     border: 0px;
     font-size: 1.5em;
 }
+#applyButton {
+    position: fixed;
+    box-sizing: border-box;
+    width:fit-content;
+    right: 50px;
+    padding: 20px 15px;
+    background-color: #7e3f73;
+    top: calc(50% - 20px);
+    color: #fff;
+    font-size:30px;
+    font-weight: 600;
+    font-family: 'Red Hat Text';
+    text-decoration: none;
+    border-radius: 5px;
+    z-index: 9999;
+}
 div.mobile label {
     padding-left: 15%;
     text-align: center;
@@ -844,6 +860,11 @@ img.a:hover {
         padding-right: 50px;
         padding-bottom: 70px;
     }
+    #applyButton {
+        top: 30%;
+        right: 15px;
+        font-size: 26px;
+    }
 }
 
 @media only screen and (max-device-width: 1024px) {
@@ -892,6 +913,12 @@ img.a:hover {
         float: none;
         display: block;
         padding: 0 2em 2em 0;
+    }
+
+    #applyButton {
+        top: 10px;
+        left: calc(50% - (152px / 2));
+        font-size: 22px;
     }
 
     /*
