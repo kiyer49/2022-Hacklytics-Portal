@@ -70,6 +70,22 @@ button {
     border: 0px;
     font-size: 1.5em;
 }
+#applyButton {
+    position: fixed;
+    box-sizing: border-box;
+    width:fit-content;
+    right: 15px;
+    padding: 15px 10px;
+    background-color: #7e3f73;
+    top: 15px;
+    color: #fff;
+    font-size:26px;
+    font-weight: 600;
+    font-family: 'Red Hat Text';
+    text-decoration: none;
+    border-radius: 5px;
+    z-index: 9999;
+}
 div.mobile label {
     padding-left: 15%;
     text-align: center;
@@ -892,6 +908,12 @@ img.a:hover {
         float: none;
         display: block;
         padding: 0 2em 2em 0;
+    }
+
+    #applyButton {
+        top: 10px;
+        left: calc(50% - (142px / 2));
+        font-size: 22px;
     }
 
     /*
