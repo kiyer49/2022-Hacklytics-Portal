@@ -13,7 +13,7 @@
       },
       {
         "source": "/apply",
-        "destination": "https://form.typeform.com/to/J7doCIw1"
+        "destination": "/apply.html"
       }
     ]
   }
