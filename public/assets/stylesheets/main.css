@@ -74,12 +74,12 @@ button {
     position: fixed;
     box-sizing: border-box;
     width:fit-content;
-    right: 50px;
-    padding: 20px 15px;
+    right: 15px;
+    padding: 15px 10px;
     background-color: #7e3f73;
-    top: calc(50% - 20px);
+    top: 15px;
     color: #fff;
-    font-size:30px;
+    font-size:26px;
     font-weight: 600;
     font-family: 'Red Hat Text';
     text-decoration: none;
@@ -859,11 +859,6 @@ img.a:hover {
         padding-left: 50px;
         padding-right: 50px;
         padding-bottom: 70px;
-    }
-    #applyButton {
-        top: 30%;
-        right: 15px;
-        font-size: 26px;
     }
 }
 
