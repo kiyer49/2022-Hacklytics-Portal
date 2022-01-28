@@ -10,6 +10,10 @@
       {
         "source": "/2022",
         "destination": "/index.html"
+      },
+      {
+        "source": "/apply",
+        "destination": "/apply.html"
       }
     ]
   }
