@@ -582,14 +582,15 @@ a.sponsor2a {
 	margin-bottom: 3em;
 }
 
-img.sponsor3 {
+a.sponsor3 {
 	display: inline-block;
-	width: 90%;
-	max-width: 14em;
+	width: 50%;
 	height: auto;
+	max-width: 25em;
     position: relative;
     top: 25%;
-    transform: translateY(-50%);
+    transform: translateY(-35%);
+    margin: 10px;
 }
 
 /*
