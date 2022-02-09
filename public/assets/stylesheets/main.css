@@ -235,10 +235,9 @@ img.mobile {
 
 .sponsor-list {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-flow: column wrap;
     justify-content: space-evenly;
-    margin-bottom: 40px;
+    margin-bottom: 100px;
 }
 
 #mobileSponsors {
@@ -522,8 +521,12 @@ p {
 #tiers {
     text-align: center;
     display: flex;
+    flex-flow: row nowrap;
     justify-content: space-evenly;
     width: 100%;
+    border: 1px dashed red;
+    position: relative;
+    height: 170px;
 }
 
 /*
@@ -540,57 +543,66 @@ img.sponsor1 {
 	margin-bottom: 3em;
 }
 */
+
+a.sponsor {
+    display: flexbox;
+    border:1px dashed green;
+    box-sizing: border-box;
+    height: 100%;
+    position: relative;
+}
+
 a.sponsor > img {
+    display: block;
+    position: absolute;
     width: 100%;
+    height: auto;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin:auto;
+    max-width: 25em;
+    /*border: 1px dashed blue;*/
 }
 
 a.sponsor1 {
-	display: inline-block;
     width: 50%;
-    height: auto;
-	max-width: 50em;
-    position: relative;
-    top: 75%;
-    transform: translateY(-100%);
 }
 
 a.sponsor2 {
-	display: inline-block;
-	width: 100%;
-	height: auto;
-	max-width: 25em;
-    position: relative;
-    top: 25%;
-    transform: translateY(-50%);
-    margin: 10px;
-}
-
-.sponsor-head {
-    display: block;
-    padding: 0 2em 2em 0;
+	width: 40%;
 }
 
 a.sponsor2a {
-	display: inline-block;
 	margin-left: auto;
     margin-right: auto;
     padding: 0 2em 2em 0;
 	float: none;
 	width: 120%;
-	height: auto;
 	max-width: 35em;
 	margin-bottom: 3em;
 }
 
 a.sponsor3 {
-	display: inline-block;
-	width: 50%;
-	height: auto;
-	max-width: 25em;
-    position: relative;
-    top: 25%;
-    transform: translateY(-35%);
-    margin: 10px;
+	width: 25%;
+}
+
+a.sponsor3a {
+	width: 25%;
+}
+
+a.sponsor3a > img{
+	width: 60%;
+}
+
+a.sponsor4 {
+	width: 22%;
+}
+
+.sponsor-head {
+    display: block;
+    padding: 0 2em 2em 0;
 }
 
 /*
