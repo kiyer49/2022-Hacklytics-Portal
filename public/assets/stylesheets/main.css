@@ -237,7 +237,7 @@ img.mobile {
     display: flex;
     flex-flow: column wrap;
     justify-content: space-evenly;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
 }
 
 #mobileSponsors {
@@ -524,9 +524,13 @@ p {
     flex-flow: row nowrap;
     justify-content: space-evenly;
     width: 100%;
-    border: 1px dashed red;
+    /*border: 1px dashed red;*/
     position: relative;
-    height: 170px;
+    height: 190px;
+}
+
+.tier1 {
+    height: 220px;
 }
 
 /*
@@ -546,7 +550,15 @@ img.sponsor1 {
 
 a.sponsor {
     display: flexbox;
-    border:1px dashed green;
+    /*border:1px dashed green;*/
+    box-sizing: border-box;
+    height: 100%;
+    position: relative;
+}
+
+a.skinnysponsor {
+    display: flexbox;
+    /*border:1px dashed green;*/
     box-sizing: border-box;
     height: 100%;
     position: relative;
@@ -566,6 +578,20 @@ a.sponsor > img {
     /*border: 1px dashed blue;*/
 }
 
+a.skinnysponsor > img {
+    display: block;
+    position: absolute;
+    height: 100%;
+    width: auto;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin:auto;
+    max-width: 25em;
+    /*border: 1px dashed blue;*/
+}
+
 a.sponsor1 {
     width: 50%;
 }
@@ -575,13 +601,7 @@ a.sponsor2 {
 }
 
 a.sponsor2a {
-	margin-left: auto;
-    margin-right: auto;
-    padding: 0 2em 2em 0;
-	float: none;
-	width: 120%;
-	max-width: 35em;
-	margin-bottom: 3em;
+	width: 40%;
 }
 
 a.sponsor3 {
@@ -603,6 +623,16 @@ a.sponsor4 {
 .sponsor-head {
     display: block;
     padding: 0 2em 2em 0;
+}
+
+.divider {
+    display: block;
+    width: 80%;
+    height: 1px;
+    box-sizing: border-box;
+    border-top: 1px solid black;
+    margin: 20px auto;
+
 }
 
 /*
