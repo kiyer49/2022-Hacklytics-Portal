@@ -635,6 +635,39 @@ a.sponsor4 {
 
 }
 
+.sponsor-title {
+    display: block;
+    width: fit-content;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.5em;
+    position: relative;
+    margin: 20px auto;
+
+}
+
+.sponsor-title:after {
+    content: "";
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    right: calc(-5px + -50%);
+    height: 2px;
+    width: 50%;
+    border-bottom:1px solid #20A39e;
+}
+
+.sponsor-title:before {
+    content: "";
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: calc(-5px + -50%);
+    height: 2px;
+    width: 50%;
+    border-bottom:1px solid #20A39e;
+}
+
 /*
 img.sponsor2 {
 	display: block;
