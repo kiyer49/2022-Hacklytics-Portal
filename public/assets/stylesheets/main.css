@@ -235,10 +235,9 @@ img.mobile {
 
 .sponsor-list {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-flow: column wrap;
     justify-content: space-evenly;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 
 #mobileSponsors {
@@ -522,8 +521,16 @@ p {
 #tiers {
     text-align: center;
     display: flex;
+    flex-flow: row nowrap;
     justify-content: space-evenly;
     width: 100%;
+    /*border: 1px dashed red;*/
+    position: relative;
+    height: 190px;
+}
+
+.tier1 {
+    height: 220px;
 }
 
 /*
@@ -540,29 +547,77 @@ img.sponsor1 {
 	margin-bottom: 3em;
 }
 */
+
+a.sponsor {
+    display: flexbox;
+    /*border:1px dashed green;*/
+    box-sizing: border-box;
+    height: 100%;
+    position: relative;
+}
+
+a.skinnysponsor {
+    display: flexbox;
+    /*border:1px dashed green;*/
+    box-sizing: border-box;
+    height: 100%;
+    position: relative;
+}
+
 a.sponsor > img {
+    display: block;
+    position: absolute;
     width: 100%;
+    height: auto;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin:auto;
+    max-width: 25em;
+    /*border: 1px dashed blue;*/
+}
+
+a.skinnysponsor > img {
+    display: block;
+    position: absolute;
+    height: 100%;
+    width: auto;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin:auto;
+    max-width: 25em;
+    /*border: 1px dashed blue;*/
 }
 
 a.sponsor1 {
-	display: inline-block;
     width: 50%;
-    height: auto;
-	max-width: 50em;
-    position: relative;
-    top: 75%;
-    transform: translateY(-100%);
 }
 
 a.sponsor2 {
-	display: inline-block;
-	width: 100%;
-	height: auto;
-	max-width: 25em;
-    position: relative;
-    top: 25%;
-    transform: translateY(-50%);
-    margin: 10px;
+	width: 40%;
+}
+
+a.sponsor2a {
+	width: 40%;
+}
+
+a.sponsor3 {
+	width: 25%;
+}
+
+a.sponsor3a {
+	width: 25%;
+}
+
+a.sponsor3a > img{
+	width: 60%;
+}
+
+a.sponsor4 {
+	width: 22%;
 }
 
 .sponsor-head {
@@ -570,27 +625,47 @@ a.sponsor2 {
     padding: 0 2em 2em 0;
 }
 
-a.sponsor2a {
-	display: inline-block;
-	margin-left: auto;
-    margin-right: auto;
-    padding: 0 2em 2em 0;
-	float: none;
-	width: 120%;
-	height: auto;
-	max-width: 35em;
-	margin-bottom: 3em;
+.divider {
+    display: block;
+    width: 80%;
+    height: 1px;
+    box-sizing: border-box;
+    border-top: 1px solid black;
+    margin: 20px auto;
+
 }
 
-a.sponsor3 {
-	display: inline-block;
-	width: 50%;
-	height: auto;
-	max-width: 25em;
+.sponsor-title {
+    display: block;
+    width: fit-content;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.5em;
     position: relative;
-    top: 25%;
-    transform: translateY(-35%);
-    margin: 10px;
+    margin: 20px auto;
+
+}
+
+.sponsor-title:after {
+    content: "";
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    right: calc(-5px + -50%);
+    height: 2px;
+    width: 50%;
+    border-bottom:1px solid #20A39e;
+}
+
+.sponsor-title:before {
+    content: "";
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: calc(-5px + -50%);
+    height: 2px;
+    width: 50%;
+    border-bottom:1px solid #20A39e;
 }
 
 /*
