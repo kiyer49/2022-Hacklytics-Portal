@@ -597,15 +597,15 @@ a.sponsor1 {
 }
 
 a.sponsor2 {
-	width: 40%;
+	width: 30%;
 }
 
 a.sponsor2a {
-	width: 40%;
+	width: 30%;
 }
 
 a.sponsor3 {
-	width: 25%;
+	width: 18%;
 }
 
 a.sponsor3a {
@@ -617,7 +617,7 @@ a.sponsor3a > img{
 }
 
 a.sponsor4 {
-	width: 22%;
+	width: 18%;
 }
 
 .sponsor-head {
@@ -644,6 +644,13 @@ a.sponsor4 {
     position: relative;
     margin: 20px auto;
 
+}
+.sponsor-divider {
+    display: block;
+    width: 350px;
+    height: 1px;
+    border-bottom: 1px solid #20A39e;
+    margin: 20px auto;
 }
 
 .sponsor-title:after {
