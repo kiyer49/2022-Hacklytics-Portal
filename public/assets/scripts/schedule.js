@@ -26,7 +26,7 @@ const saturday = {
 }
 
 const sunday = {
-    "1:00 AM - 4:00 AM: Midnight Snacks - Klaus Atrium",
+    "1:00 AM - 4:00 AM": "Midnight Snacks - Klaus Atrium",
     "8:00 AM": "Breakfast Bagels - Klaus Atrium",
     "9:30 AM": "HACKING ENDS!",
     "10:00 AM - 12:00 PM": "Judging Begins on Gatherly",
