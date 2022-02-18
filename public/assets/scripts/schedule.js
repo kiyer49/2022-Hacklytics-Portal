@@ -3,7 +3,7 @@ const friday = {
     "5:45 PM - 6:30 PM": "Opening Ceremony - Klaus 1443",
 //     "6:00 PM - 7:30 PM": "Team Building",
     "7:00 PM - 8:00 PM": "Sponsor Expo (Hosted on Gatherly)",
-    "8:00 PM - 9:00 PM": "Dinner Available - Klaus Atrium",
+    "8:00 PM - 9:00 PM": "Dinner - Klaus Atrium",
     "9:30 PM": "HACKING BEGINS!",
     "10:00 PM - 10:45 PM": "GT Athletics Workshop - Klaus 1447",
     "11:00 PM": "Late Night Cookies - Klaus Atrium"
