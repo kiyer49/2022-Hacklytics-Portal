@@ -1,28 +1,37 @@
 const friday = {
     "5:00 PM - 5:45 PM": "Check In",
-    "6:00 PM - 6:30 PM": "Opening Ceremony",
+    "5:45 PM - 7:00 PM": "Opening Ceremony",
 //     "6:00 PM - 7:30 PM": "Team Building",
-    "6:30 PM - 7:30 PM": "Sponsor/Career Fair",
-    "7:00 PM - 9:30 PM": "Dinner Available",
-    "9:30 PM": "Hacking officially begins!"
+    "7:00 PM - 8:00 PM": "Sponsor/Career Fair",
+    "8:00 PM - 9:30 PM": "Dinner Available",
+    "9:30 PM": "Hacking officially begins!",
+    "10:00 PM - 10:45 PM": "GT Athletics Workshop #1",
+    "11:00 PM - 11:45 PM": "GT Athletics Workshop #2"
 }
 
 const saturday = {
+    "1:00 AM": "Midnight Snack",
     "8:00 AM - 11:00 AM": "Breakfast Available",
     "9:00 AM - 10:00 AM": "Deepnote Workshop",
+    "11:00 AM - 12:00 PM": "CREATE-X Workshop",
     "12:00 PM - 2:00 PM": "Lunch Available",
     "12:30 PM - 1:30 PM": "DSGT Workshop",
+    "1:30 PM - 2:30 PM": "Anthem Workshop",
     "3:00 PM - 4:00 PM": "GreyHat Workshop",
     "4:00 PM - 5:00 PM": "GT Trading Club Workshop", 
-    "6:00 PM - 7:45 PM": "DSGT Workshop",
+    "6:00 PM - 7:00 PM": "DSGT Workshop",
     "6:00 PM - 9:30 PM": "Dinner Available",
+    "11:45 PM": "Snacks"
 }
 
 const sunday = {
-    "8:00 AM - 9:30 AM": "Breakfast Avaiable",
+    "1:00 AM": "Midnight Snack",
+    "8:00 AM - 9:30 AM": "Breakfast Available",
     "9:30 AM": "Hacking Stops!",
+    "11:00 AM": "Judging Begins",
+    "12:00 PM - 1:00 PM": "Lunch",
     "2:30 PM - 4:00 PM": "Hacker Demo",
-    "4:15 PM - 5:30 PM": "Closing Ceremony",
+    "4:15 PM - 5:30 PM": "Closing Ceremony"
 }
 
 function schedule_populate() {
