@@ -30,7 +30,7 @@ const sunday = {
     "8:00 AM": "Breakfast Bagels - Klaus Atrium",
     "9:30 AM": "HACKING ENDS!",
     "10:00 AM - 12:00 PM": "Judging Begins on Gatherly",
-    "12:30 PM - 1:30 PM": "Closing Ceremony - Klaus 1443",
+    "12:30 PM - 1:30 PM": "Closing Ceremony - Klaus 1443"
 }
 
 function schedule_populate() {
