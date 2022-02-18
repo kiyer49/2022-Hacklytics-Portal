@@ -1,37 +1,36 @@
 const friday = {
-    "5:00 PM - 5:45 PM": "Check In",
-    "5:45 PM - 7:00 PM": "Opening Ceremony",
+    "5:00 PM - 6:00 PM": "Registration and Check In - Klaus Atrium",
+    "5:45 PM - 6:30 PM": "Opening Ceremony - Klaus 1443",
 //     "6:00 PM - 7:30 PM": "Team Building",
-    "7:00 PM - 8:00 PM": "Sponsor/Career Fair",
-    "8:00 PM - 9:30 PM": "Dinner Available",
-    "9:30 PM": "Hacking officially begins!",
-    "10:00 PM - 10:45 PM": "GT Athletics Workshop #1",
-    "11:00 PM - 11:45 PM": "GT Athletics Workshop #2"
+    "7:00 PM - 8:00 PM": "Sponsor Expo (Hosted on Gatherly)",
+    "8:00 PM - 9:00 PM": "Dinner Available - Klaus Atrium",
+    "9:30 PM": "HACKING BEGINS!",
+    "10:00 PM - 10:45 PM": "GT Athletics Workshop - Klaus 1447",
+    "11:00 PM": "Late Night Cookies - Klaus Atrium"
 }
 
 const saturday = {
-    "1:00 AM": "Midnight Snack",
-    "8:00 AM - 11:00 AM": "Breakfast Available",
-    "9:00 AM - 10:00 AM": "Deepnote Workshop",
-    "11:00 AM - 12:00 PM": "CREATE-X Workshop",
-    "12:00 PM - 2:00 PM": "Lunch Available",
-    "12:30 PM - 1:30 PM": "DSGT Workshop",
-    "1:30 PM - 2:30 PM": "Anthem Workshop",
-    "3:00 PM - 4:00 PM": "GreyHat Workshop",
-    "4:00 PM - 5:00 PM": "GT Trading Club Workshop", 
-    "6:00 PM - 7:00 PM": "DSGT Workshop",
-    "6:00 PM - 9:30 PM": "Dinner Available",
+    "1:00 AM - 4:00 AM": "Midnight Snacks - Klaus Atrium",
+    "8:00 AM - 11:00 AM": "Breakfast Croissants - Klaus Atrium",
+    "9:00 AM - 10:00 AM": "Intro to SQL in Deepnote - Klaus 2447",
+    "11:00 AM - 12:00 PM": "Pitching Your Product with CREATE-X - Klaus 2456",
+    "12:00 PM - 1:30 PM": "Moe's for Lunch - Klaus Atrium",
+    "12:30 PM - 1:30 PM": "Introduction to Natural Language Processing - Klaus 2447",
+    "1:30 PM - 2:30 PM": "Workshop conducted by Anthem Engineers - Klaus 1447",
+    "3:00 PM - 4:00 PM": "Data Privacy and Security Workshop - Klaus 1447",
+    "4:00 PM - 5:00 PM": "Monte Carlo Simulations in Trading - Klaus 2447", 
+    "5:00 PM - 6:00 PM": "Evening Snacks - Klaus Atrium",
+    "6:00 PM - 7:00 PM": "Introduction to Machine Learning - Klaus 1447",
+    "7:30 PM - 9:00 PM": "Dinner - Klaus Atrium",
     "11:45 PM": "Snacks"
 }
 
 const sunday = {
-    "1:00 AM": "Midnight Snack",
-    "8:00 AM - 9:30 AM": "Breakfast Available",
-    "9:30 AM": "Hacking Stops!",
-    "11:00 AM": "Judging Begins",
-    "12:00 PM - 1:00 PM": "Lunch",
-    "2:30 PM - 4:00 PM": "Hacker Demo",
-    "4:15 PM - 5:30 PM": "Closing Ceremony"
+    "1:00 AM - 4:00 AM: Midnight Snacks - Klaus Atrium",
+    "8:00 AM": "Breakfast Bagels - Klaus Atrium",
+    "9:30 AM": "HACKING ENDS!",
+    "10:00 AM - 12:00 PM": "Judging Begins on Gatherly",
+    "12:30 PM - 1:30 PM": "Closing Ceremony - Klaus 1443",
 }
 
 function schedule_populate() {
