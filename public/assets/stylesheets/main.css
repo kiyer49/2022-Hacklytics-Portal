@@ -604,8 +604,12 @@ a.sponsor2a {
 	width: 30%;
 }
 
+a.sponsor2a > img{
+	height: 60%;
+}
+
 a.sponsor3 {
-	width: 18%;
+	width: 25%;
 }
 
 a.sponsor3a {
