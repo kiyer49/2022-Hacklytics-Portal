@@ -13,7 +13,7 @@ const saturday = {
     "8:00 AM": "Breakfast Croissants, Klaus Atrium",
     "9:00 AM - 10:00 AM": "Intro to SQL in DeepNote, Klaus 2447",
     "11:00 AM - 12:00 PM": "Piching your Product with CREATE-X, Klaus 2456",
-    "12:00 PM - 1:30 PM", "Moe's Lunch, Klaus Atrium",
+    "12:00 PM - 1:30 PM": "Moe's Lunch, Klaus Atrium",
     "1:30 PM - 2:30 PM": "Workshop conducted by Anthem Engineers, Klaus 1447",
     "3:00 PM - 4:00 PM": "Data Privacy and Security Workshop, Klaus 1447", 
     "4:00 PM - 5:00 PM": "Monte Carlo Simulations in Trading, Klaus 2447",
