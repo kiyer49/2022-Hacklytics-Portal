@@ -1,8 +1,8 @@
 const data_set = {
     "GT Athletics": {
         "type": "Text",
-        "description": "Data + info for the track challenge!",
-        "link": "https://gtvault-my.sharepoint.com/:f:/g/personal/da116_gatech_edu/EhBBi1-E8JhCnpIcDfn2OZ0B3ShDvEkKIvG9mJ8cN3VWww?e=jwOIH4"
+        "description": "Data + info for the two challenges!",
+        "link": "https://docs.google.com/document/d/1_4WWC-tsaiG-8XH88dRmKAacXMIgHo19snxgkRrZ-OM/edit?usp=sharing"
     },
     "Malicious vs Benign Websites": {
         "type": "Numeric",
